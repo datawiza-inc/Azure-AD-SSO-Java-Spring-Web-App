@@ -43,9 +43,6 @@ Visit [http://localhost:9772](http://localhost:9772), after logging in to Azure 
 
 We also provide a complete tutorial for you, which you can use to build your application in DCMC. You can see the guide [here](/demo/java/README.md) for more information.
 
-## Online demo
-
-We have already built an [online demo](https://spring-sso.datawiza.net) based on this repo which you can login in with accounts in any organizational directory (Any Azure AD directory - Multitenant) and personal Microsoft accounts.
 
 ## Support
 
