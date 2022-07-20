@@ -28,7 +28,7 @@ This repo is used to run a pre-configured [Datawiza Access Broker (DAB)](https:/
 
 ## Run the Demo
 
-You can run this demo simply with [docker compose](https://docs.docker.com/compose/):
+You can run this demo simply with [docker compose](https://docs.docker.com/compose/) as follows. It will build the JAVA Spring app and run it together with DAB. 
 
 ```shell
 docker-compose -f docker-compose.yaml up -d
