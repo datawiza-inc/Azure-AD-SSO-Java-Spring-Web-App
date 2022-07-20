@@ -5,6 +5,10 @@ This module will introduce you to using No-Code Datwiza to build a Java Spring w
 - How to enable Microsoft login (Microsoft Azure AD work or school account)
 - How to pass user attributes to the application backend.
 
+## Online demo
+
+We built an online demo based on this repo: https://spring-sso.datawiza.net. You can login in via your Azure AD account or personal Microsoft account.
+
 ## The Benefits of Using No-Code Datawiza
 
 - No need to learn complex OIDC/OAuth or SAML protocols
