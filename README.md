@@ -3,11 +3,11 @@
 This module will introduce you to using No-Code Datwiza to build a Java Spring web application. It shows two major functionalities:
 
 - How to enable Microsoft login (Microsoft Azure AD work or school account)
-- How to pass user attributes to the application backend.
+- How to pass user attributes to the application backend
 
 ## Online demo
 
-We built an online demo based on this repo: https://spring-sso.datawiza.net. You can login in via your Azure AD account or personal Microsoft account.
+We built an online demo based on this repo: https://spring-sso.datawiza.net. You can login via your Azure AD account or personal Microsoft account.
 
 ## The Benefits of Using No-Code Datawiza
 
@@ -28,7 +28,7 @@ The Datawiza proxies are delivered as lightweight docker containers (supporting 
 
 ## Introduction
 
-This repo is used to run a pre-configured [Datawiza Access Broker (DAB)](https://docs.datawiza.com/overview.html#what-is-datawiza-access-broker) with a header-based app that will read `username`, `email`, and `access token` from the request header to achieve Single Sign-On (SSO) without actually coding the authentication part. The Identity Provider used is an Azure AD multi-tenant application, which means all users with a work or school account from Microsoft can log in.
+This repo is used to run a pre-configured [Datawiza Access Broker (DAB)](https://docs.datawiza.com/overview.html#what-is-datawiza-access-broker) with a header-based app that will read `username`, `email`, and `access token` from the request header to achieve Single Sign-On (SSO) without actually coding the authentication part. The Identity Provider used, is an Azure AD multi-tenant application, which means all users with a work or school account from Microsoft can log in.
 
 ## Run the Demo
 
