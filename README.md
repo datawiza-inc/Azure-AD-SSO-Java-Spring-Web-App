@@ -28,7 +28,7 @@ The Datawiza proxies are delivered as lightweight docker containers (supporting 
 
 ## Introduction
 
-This repo is used to run a pre-configured [Datawiza Access Broker (DAB)](https://docs.datawiza.com/overview.html#what-is-datawiza-access-broker) with a header-based app that will read `username`, `email`, and `access token` from the request header to achieve Single Sign-On (SSO) without actually coding the authentication part. The Identity Provider used, is an Azure AD multi-tenant application, which means all users with a work or school account from Microsoft can log in.
+This repo is used to run a pre-configured [Datawiza Access Broker (DAB)](https://docs.datawiza.com/overview.html#what-is-datawiza-access-broker) with a web app that will read `username`, `email`, and `access token` from the request http headers to achieve Single Sign-On (SSO) without actually coding the authentication part. The Identity Provider used, is an Azure AD multi-tenant application, which means all users with a work or school account from Microsoft can log in.
 
 ## Run the Demo
 
